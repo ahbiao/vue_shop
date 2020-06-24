@@ -1,11 +1,13 @@
 <template>
-  <div id="app">
-    <router-view />
-  </div>
+  <div>Wecome</div>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {}
+  }
+}
 </script>
 
 <style scoped>
