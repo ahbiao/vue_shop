@@ -18,8 +18,8 @@ module.exports = {
     'no-console': 'off',
     'no-debugger': 'off',
     'space-before-function-paren': 0,
-    "no-unused-vars": 0,
-    "no-useless-return": 0
+    'no-useless-return': 0,
+    'vue/no-unused-vars': 'off'
   },
 
   extends: [
@@ -33,6 +33,11 @@ module.exports = {
   ],
 
   extends: [
+    'plugin:vue/essential',
+    '@vue/standard'
+  ],
+
+  'extends': [
     'plugin:vue/essential',
     '@vue/standard'
   ]
