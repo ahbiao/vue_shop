@@ -27,9 +27,12 @@ import {
   Tag,
   Tree,
   Select,
-  Option
+  Option,
+  Cascader
 } from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
 Vue.use(Option)
+Vue.use(Cascader)
 Vue.use(Select)
 Vue.use(Tree)
 Vue.use(Button)
